@@ -2,12 +2,12 @@
 Summary:	Name Server Daemon
 Summary(pl):	Serwer DNS (Name Server Daemon)
 Name:		nsd
-Version:	1.2.2
+Version:	1.2.3
 Release:	0.1
 License:	BSD
 Group:		Networking/Daemons
 Source0:	http://www.nlnetlabs.nl/downloads/nsd/%{name}-%{version}.tar.gz
-# Source0-md5:	7d1449dcec224176ba7265015821ddbc
+# Source0-md5:	7498027ad3a20a3f1356753fbd54c441
 URL:		http://www.nlnetlabs.nl/nsd/
 BuildRequires:	libwrap-devel
 #Requires(pre):	/bin/id
