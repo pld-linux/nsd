@@ -28,6 +28,7 @@
 
 Name:		nsd
 Summary:	Name Server Daemon
+Summary(pl):	Serwer DNS (Name Server Daemon)
 URL:		http://www.nlnetlabs.nl/nsd/
 Vendor:		NLNet Labs
 Group:		Daemons
@@ -53,6 +54,14 @@ is especially intended to be run as a root nameserver and actually is
 used for the Internet K-Root-Server driven by RIPE NCC. It supports
 BIND-style zone files, but pre-compiles the DNS RRs into packet format
 in a separate step.
+
+%description -l pl
+NSD jest wysokowydajnym, prostym serwerem DNS udzielaj±cym wy³±cznie
+autorytatywnych odpowiedzi. Jest on przeznaczony g³ównie do dzia³ania
+jako serwer domeny g³ównej, aktualnie wykorzystywany przez RIPE NCC
+jako K-Root-Server Internetu. Wspiera on pliki stref w stylu BINDa,
+ale zawarte w nich rekordy DNS s± w osobnym kroku prekompilowane do
+formatu pakietowego.
 
 %prep
 %setup -q
