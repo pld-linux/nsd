@@ -40,6 +40,7 @@ Release:      20030227
 
 #   list of sources
 Source0:      http://www.nlnetlabs.nl/downloads/nsd/nsd-%{version}.tar.gz
+# Source0-md5:	8c50f242ed4d71986fe8959f5db3be5d
 Source1:      rc.nsd
 Source2:      nsd.zones
 Source3:      nsdc.conf
