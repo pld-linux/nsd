@@ -11,6 +11,7 @@ Source0:	http://www.nlnetlabs.nl/downloads/nsd/%{name}-%{version}.tar.gz
 URL:		http://www.nlnetlabs.nl/nsd/
 BuildRequires:	libwrap-devel
 BuildRequires:	openssl-devel
+#BuildRequires:	rpmbuild(macros) >= 1.202
 #Requires(pre):	/bin/id
 #Requires(pre):	/usr/sbin/useradd
 #Requires(post,preun):	/sbin/chkconfig
