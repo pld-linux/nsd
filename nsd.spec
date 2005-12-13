@@ -12,10 +12,10 @@ URL:		http://www.nlnetlabs.nl/nsd/
 BuildRequires:	libwrap-devel
 BuildRequires:	openssl-devel
 #BuildRequires:	rpmbuild(macros) >= 1.202
-#Requires(pre):	/bin/id
-#Requires(pre):	/usr/sbin/useradd
 #Requires(post,preun):	/sbin/chkconfig
 #Requires(postun):	/usr/sbin/userdel
+#Requires(pre):	/bin/id
+#Requires(pre):	/usr/sbin/useradd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sysconfdir	/etc/nsd
@@ -81,6 +81,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc CREDITS DIFFERENCES README RELNOTES REQUIREMENTS TODO contrib/build*
 %attr(755,root,root) %{_sbindir}/*
 %dir %{_sysconfdir}
-%config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/nsdc.conf
-%config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/nsd.zones
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/nsdc.conf
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/nsd.zones
 %{_mandir}/man8/*
