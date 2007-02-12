@@ -1,6 +1,6 @@
 # TODO: deal with "nsd" user, make init script
 Summary:	Name Server Daemon
-Summary(pl):	Serwer DNS (Name Server Daemon)
+Summary(pl.UTF-8):   Serwer DNS (Name Server Daemon)
 Name:		nsd
 Version:	2.2.1
 Release:	0.1
@@ -27,13 +27,13 @@ and actually is used for the Internet K-Root-Server driven by RIPE
 NCC. It supports BIND-style zone files, but pre-compiles the DNS RRs
 into packet format in a separate step.
 
-%description -l pl
-NSD jest wysokowydajnym, prostym, wolnodostêpnym serwerem DNS,
-udzielaj±cym wy³±cznie autorytatywnych odpowiedzi. Jest on
-przeznaczony g³ównie do dzia³ania jako serwer domeny g³ównej,
+%description -l pl.UTF-8
+NSD jest wysokowydajnym, prostym, wolnodostÄ™pnym serwerem DNS,
+udzielajÄ…cym wyÅ‚Ä…cznie autorytatywnych odpowiedzi. Jest on
+przeznaczony gÅ‚Ã³wnie do dziaÅ‚ania jako serwer domeny gÅ‚Ã³wnej,
 aktualnie wykorzystywany przez RIPE NCC jako K-Root-Server Internetu.
 Wspiera on pliki stref w stylu BINDa, ale zawarte w nich rekordy DNS
-s± w osobnym kroku prekompilowane do formatu pakietowego.
+sÄ… w osobnym kroku prekompilowane do formatu pakietowego.
 
 %prep
 %setup -q
