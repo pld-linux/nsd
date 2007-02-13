@@ -1,6 +1,6 @@
 # TODO: deal with "nsd" user, make init script
 Summary:	Name Server Daemon
-Summary(pl.UTF-8):   Serwer DNS (Name Server Daemon)
+Summary(pl.UTF-8):	Serwer DNS (Name Server Daemon)
 Name:		nsd
 Version:	2.2.1
 Release:	0.1
